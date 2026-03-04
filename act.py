@@ -9,9 +9,9 @@ init(autoreset=True)
 
 # Travel destinations database
 destinations = {
-   "beaches": ["Baga beach", "cherai beach", "dhanushkoti"],
+   "beaches": ["Baga beach", "cherai beach", "dhanushkoti","arjuna beach"],
    "mountains": ["andes mountains", "Rocky Mountains", "Himalayas"],
-   "cities": ["lucknow", "amritsar", "jhansi","gwalior","kochi"]
+   "cities": ["lucknow", "amritsar", "jhansi","gwalior","kochi","kanyakumari"]
 }
 
 
@@ -20,6 +20,9 @@ jokes = [
    "Why don't programmers like nature? Too many bugs!",
    "Why did the computer go to the doctor? Because it had a virus!",
    "Why do travelers always feel warm? Because of all their hot spots!"
+   "what do you call a paper aeroplane that can't  fly, a stationary"
+   "why do employees stay in shape, they run out of work"
+   "I tried to make a pun about a vaccum, it sucked"
 ]
 
 
@@ -79,7 +82,7 @@ def show_help():
    print(Fore.GREEN + "- Offer packing tips (say 'packing')")
    print(Fore.GREEN + "- Tell a joke (say 'joke')")
    print(Fore.CYAN + "Type 'exit' or 'bye' to end.\n")
-
+    
 
 def chat():
    """Main chat function that handles user interaction"""
